@@ -8,7 +8,7 @@
 		<repository>
 			<id>notes</id>
 			<layout>p2</layout>
-			<url>${notes-platform}</url>
+			<url>file:///c:\updateSite2</url>
 		</repository>
 	</repositories>
 

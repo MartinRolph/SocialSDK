@@ -14,11 +14,28 @@
 
 
 	<profiles>
-		<profile>
-			<id>lite</id>
+	<profile>
+			<id>domino</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
+			<modules>
+				<module>commons</module>
+				<module>libraries</module>
+				<module>deps</module>
+				<module>sdk</module>
+				<module>domino</module>
+			</modules>
+			<repositories>
+				<repository>
+					<id>notes</id>
+					<layout>p2</layout>
+					<url>file:///c:\updateSite2</url>
+				</repository>
+			</repositories>
+		</profile>
+		<profile>
+			<id>lite</id>
 			<modules>
 				<module>commons</module>
 				<module>libraries</module>
